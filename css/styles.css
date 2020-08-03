@@ -3,6 +3,7 @@ body{
 	color:#fff;
 	background-color: #61122f;
 	font-family: 'Oxygen',sans-serif;
+	background-attachment: fixed;
 }
 #header-nav{
 	background-color: #f6b319;
@@ -95,7 +96,12 @@ body{
 }
 
 @media (min-width: 1200px) {
-
+	.jumbotron{
+		background: url('../images/jumbotron_1200.jpg') no-repeat;
+		height: 675px;
+		box-shadow: 0 0 50px #3F0C1F;
+		border: 2px solid #3F0C1F;
+	}
 }
 
 
@@ -106,11 +112,22 @@ body{
 		height: 100px;
 		margin: 5px 5px 5px 0;
 	}
+	.jumbotron{
+		background: url('../images/jumbotron_992.jpg') no-repeat;
+		height: 558px;
+		box-shadow: 0 0 50px #3F0C1F;
+		border: 2px solid #3F0C1F;
+	}
 }
 
 
 @media (min-width: 768px) and (max-width: 991px) {
-
+	.jumbotron{
+		background: url('../images/jumbotron_768.jpg') no-repeat;
+		height: 432px;
+		box-shadow: 0 0 50px #3F0C1F;
+		border: 2px solid #3F0C1F;
+	}
 }
 
 
@@ -137,6 +154,14 @@ body{
 	}
 	#collapsable-nav a span{
 		font-size: 1em;
-		margin-right: 10px;
+		margin-right: 10px; 
+	}
+	.container .jumbotron{
+		/*background: url('../images/jumbotron_1200.jpg') no-repeat;*/
+		/*height: 675px;*/
+		margin-top: 30px;
+		padding: 0;
+		box-shadow: 0 0 50px #3F0C1F;
+		border: 2px solid #3F0C1F;
 	}
 }
