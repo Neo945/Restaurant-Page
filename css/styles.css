@@ -6,6 +6,10 @@ body{
 	background-attachment: fixed;
 }
 #header-nav{
+	/*position: fixed; 
+  	top: 0;
+  	width: 100%;*/
+
 	background-color: #f6b319;
 	border-radius: 0;
 	border: 0;
@@ -93,6 +97,23 @@ body{
 .navbar-header button.navbar-toggle{
 	clear: both;
 	margin-top: -30px;
+}
+
+#map-tile,#specials-title,#menu-title{
+	height: 250px;
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+	border: 1px solid #3F0C1F;
+	overflow: hidden;
+}
+.container .jumbotron{
+	/*margin-top: 200px;*/
+}
+
+#map-tile:hover,#specials-title:hover,#menu-title:hover{
+	box-shadow: 0 1px 10px 1px #cccccc;
+	transition: 0.5s;
 }
 
 @media (min-width: 1200px) {
